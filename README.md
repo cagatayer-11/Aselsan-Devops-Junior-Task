@@ -31,7 +31,7 @@ Push the image to DockerHub for centralized storage and distribution.
 ```
  docker run your_user_name/binance
 ```
-Once the image is built and pushed to DockerHub, you can run the Docker container. `your_dockerhub_username/binance` this specifies the Docker image to use.
+Once the image is built and pushed to DockerHub, you can run the Docker container. `your_dockerhub_username/binance` this specifies the Docker image to use. This command will start the container, running the binanceAPI.py script, which fetches and logs BTCUSDT exchange rates at 5-minute intervals.
 
 ## Step2
 
