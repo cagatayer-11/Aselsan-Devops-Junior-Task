@@ -1,7 +1,7 @@
 # Aselsan-Devops-Junior-Task
 
 ## Project Overview
-This project demonstrates a comprehensive DevOps setup, utilizing Docker and Kubernetes, along with automation using cron jobs. The primary objective is to fetch BTCUSDT exchange rates from the Binance API at regular intervals, containerize the application, and manage it within a Kubernetes cluster. Additionally, a cron job is set up to monitor system load and log it.
+This project demonstrates a comprehensive DevOps setup, utilizing Docker and Kubernetes, along with automation using cron jobs. The primary objective is to fetch BTCUSDT exchange rates from the Binance API at regular intervals, containerize the application, and manage it within a Kubernetes cluster. Additionally, a cron job is set up to monitor average load and log it.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
