@@ -11,7 +11,7 @@
 - [Python 3.9 or higher](https://www.python.org/downloads/)
 - Access to a Linux environment
 
-## Step 1
+## Step1
 - **Docker**
 
 First, Docker needs to be installed on the Linux machine refer to the official [Docker](https://docs.docker.com/engine/install/) installation guide.
