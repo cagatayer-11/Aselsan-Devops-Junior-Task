@@ -33,7 +33,7 @@ Push the image to DockerHub for centralized storage and distribution.
 ```
 Once the image is built and pushed to DockerHub, you can run the Docker container. `your_dockerhub_username/binance` this specifies the Docker image to use. This command will start the container, running the binanceAPI.py script, which fetches and logs BTCUSDT exchange rates at 5-minute intervals.
 
-## Step 2
+## Step2
 In this step, we set up a cron job to monitor the system's load average at specific times and log the information to a file. The cron job is scheduled to run at 3:00 AM on the 5th, 10th, 15th, 20th, 25th, and 30th of each month.
 
 - **Creating the Script**
@@ -71,7 +71,7 @@ Edit the crontab file. We add the script to the cron jobs list to automate its e
 
  The output of the cron job is logged in the specified log folder `/path/to/logs` . This folder can be checked to monitor the job's activity and verify that the load average is being recorded as expected.
 
-## Step 3
+## Step3
 In this step, we set up a Kubernetes cluster and deploy our Dockerized application to it. This involves creating a Kubernetes cluster with one master and one worker node, writing Kubernetes manifests for deployment, and managing the application using Kubernetes. You need to have prerquesities **minikube** **kubectl** .
 
 - **Start Minikube**
