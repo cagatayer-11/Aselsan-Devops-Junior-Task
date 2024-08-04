@@ -3,8 +3,8 @@
 - [Prerequisites](#prerequisites)
 
 ## Prerequisites
-- Docker
-- Kubernetes (minikube or any other Kubernetes environment)
-- Python 3.8 or higher
+- [Docker](https://docs.docker.com/engine/install/)
+- [Kubernetes (minikube)](https://kubernetes.io/docs/setup/)
+- [Python 3.9 or higher] (https://www.python.org/downloads/)
 - Access to a Linux environment
-- Git
+  
