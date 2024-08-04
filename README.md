@@ -42,11 +42,13 @@ nano script.sh
 ```
 First, we create a shell script named **script.sh** that captures the system's load average and saves it to a timestamped log file. You can copy directly **script.sh** file.
 
+- **Making the Script Executable**
 ``` 
 chmod +x /path/to/script.sh
 ```
-Making the script executable. Replace `/path/to/script.sh` with the actual path to your script.
+Replace `/path/to/script.sh` with the actual path to your script.
 
+- **Adding the Cron Job**
 ```
 crontab -e
 ```
@@ -64,6 +66,10 @@ Edit the crontab file. We add the script to the cron jobs list to automate its e
 `*`: Any day of the week.
 
  `/path/to/script.sh`: The full path to the shell script.
+
+ - **Monitoring the Cron Job**
+
+ The output of the cron job is logged in the specified log folder `/path/to/logs` . This folder can be checked to monitor the job's activity and verify that the load average is being recorded as expected.
  
 
 
