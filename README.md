@@ -2,6 +2,8 @@
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Step 1](#step1)
+- [Step 2](#step2)
+- [Step 3](#step3)
 
 ## Prerequisites
 - [Docker](https://docs.docker.com/engine/install/)
@@ -31,7 +33,7 @@ Push the image to DockerHub for centralized storage and distribution.
 ```
 Once the image is built and pushed to DockerHub, you can run the Docker container. `your_dockerhub_username/binance` this specifies the Docker image to use.
 
-
+## Step2
 
 
 
