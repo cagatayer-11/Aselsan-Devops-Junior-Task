@@ -29,7 +29,7 @@ Push the image to DockerHub for centralized storage and distribution.
 ```
  docker run your_user_name/binance
 ```
-Once the image is built and pushed to DockerHub, you can run the Docker container `your_dockerhub_username/binance` This specifies the Docker image to use.
+Once the image is built and pushed to DockerHub, you can run the Docker container. `your_dockerhub_username/binance` this specifies the Docker image to use.
 
 
 
