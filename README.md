@@ -23,7 +23,7 @@ docker build -t your_dockerhub_username/binance .
 Use the Docker CLI to build the Docker image from the Dockerfile.
   ```
 docker login -u "your_user_name" -p "your_password"
-docker push your_dockerhub_username/btcusdt-fetcher
+docker push your_dockerhub_username/binance
 ```
 Push the image to DockerHub for centralized storage and distribution.
 ```
