@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: binance-api
+  labels:
+    app: binance-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: binance-api
+  template:
+    metadata:
+      labels:
+        app: binance-api
+    spec:
+      containers:
+      - name: binance-api
+        image: cagatayerasalan/binance:latest
+        # If you need to set environment variables, you can do so here
+        # env:
+        # - name: ENV_VAR_NAME
+        #   value: "value"
